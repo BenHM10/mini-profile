@@ -3,19 +3,30 @@ export default function About() {
     <main className="font-sans text-gray-800">
 
       {/* HERO */}
-      <section className="relative bg-black text-white">
-        <div className="absolute inset-0 bg-gradient-to-r from-red-600/90 to-red-500/80"></div>
+      <section className="relative bg-black text-white overflow-hidden">
 
-        <div className="relative max-w-6xl mx-auto px-6 py-28 text-center">
-          <h1 className="text-4xl md:text-6xl font-extrabold mb-6">
-            Lebih dari Sekadar Internet
-          </h1>
-          <p className="text-lg md:text-xl opacity-90 max-w-2xl mx-auto">
-            Kami menghadirkan koneksi yang menghubungkan hidup, pekerjaan,
-            dan hiburan Anda tanpa batas.
-          </p>
-        </div>
-      </section>
+  {/* Background gradient */}
+  <div className="absolute inset-0 bg-gradient-to-r from-red-600 to-red-500"></div>
+
+  {/* Image overlay */}
+  <img
+    src="/wifi.png"
+    alt="wifi"
+    className="absolute inset-0 w-full h-full object-cover opacity-20"
+  />
+
+  {/* Content */}
+  <div className="relative max-w-6xl mx-auto px-6 py-28 text-center">
+    <h1 className="text-4xl md:text-6xl font-extrabold mb-6">
+      Lebih dari Sekadar Internet
+    </h1>
+    <p className="text-lg md:text-xl opacity-90 max-w-2xl mx-auto">
+      Kami menghadirkan koneksi yang menghubungkan hidup, pekerjaan,
+      dan hiburan Anda tanpa batas.
+    </p>
+  </div>
+
+</section>
 
       {/* STORY */}
       <section className="py-24">
