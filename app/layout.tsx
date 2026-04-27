@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 import { ReactNode } from "react";
 
 export const metadata = {
-  title: "FastNet - Internet Provider",
+  title: "NotIndihome - Internet Provider",
   description: "Reliable and Fast Internet for Everyone",
 };
 
