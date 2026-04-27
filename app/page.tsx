@@ -40,18 +40,55 @@ export default function Home() {
       </section>
 
       {/* KEUNGGULAN */}
-      <section className="py-20 bg-gray-100 text-center px-6">
-        <h2 className="text-3xl font-bold mb-12">
-          Kenapa Pilih Kami?
-        </h2>
+    {/* KEUNGGULAN */}
+<section className="py-24 bg-gray-100 px-6">
+  <div className="max-w-6xl mx-auto text-center">
 
-        <div className="grid md:grid-cols-4 gap-6">
-          <div>✅ Stabil</div>
-          <div>⚡ Cepat</div>
-          <div>💰 Terjangkau</div>
-          <div>📞 Support 24/7</div>
-        </div>
-      </section>
+    <h2 className="text-3xl font-bold mb-4">
+      Kenapa Pilih Kami?
+    </h2>
+    <p className="text-gray-500 mb-16">
+      Kami memberikan layanan terbaik untuk pengalaman internet Anda
+    </p>
+
+    <div className="grid md:grid-cols-4 gap-8">
+
+      <div className="bg-white p-6 rounded-2xl shadow hover:shadow-xl transition group">
+        <div className="text-4xl mb-4 group-hover:scale-110 transition">📶</div>
+        <h3 className="font-semibold mb-2">Stabil</h3>
+        <p className="text-sm text-gray-600">
+          Koneksi tetap lancar tanpa gangguan
+        </p>
+      </div>
+
+      <div className="bg-white p-6 rounded-2xl shadow hover:shadow-xl transition group">
+        <div className="text-4xl mb-4 group-hover:scale-110 transition">⚡</div>
+        <h3 className="font-semibold mb-2">Cepat</h3>
+        <p className="text-sm text-gray-600">
+          Kecepatan tinggi untuk semua kebutuhan
+        </p>
+      </div>
+
+      <div className="bg-white p-6 rounded-2xl shadow hover:shadow-xl transition group">
+        <div className="text-4xl mb-4 group-hover:scale-110 transition">💰</div>
+        <h3 className="font-semibold mb-2">Terjangkau</h3>
+        <p className="text-sm text-gray-600">
+          Harga fleksibel sesuai kebutuhan
+        </p>
+      </div>
+
+      <div className="bg-white p-6 rounded-2xl shadow hover:shadow-xl transition group">
+        <div className="text-4xl mb-4 group-hover:scale-110 transition">📞</div>
+        <h3 className="font-semibold mb-2">Support 24/7</h3>
+        <p className="text-sm text-gray-600">
+          Tim siap membantu kapan saja
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
 
       {/* CTA */}
       <section className="py-20 text-center bg-red-600 text-white">
