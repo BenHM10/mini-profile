@@ -1,0 +1,5 @@
+[
+    { "name": "Basic", "speed": "20 Mbps", "price": "Rp150.000" },
+    { "name": "Standard", "speed": "50 Mbps", "price": "Rp300.000" },
+    { "name": "Premium", "speed": "100 Mbps", "price": "Rp500.000" }
+  ]
