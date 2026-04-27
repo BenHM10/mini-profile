@@ -10,7 +10,7 @@ export default function About() {
 
   {/* Image overlay */}
   <img
-    src="/wifi.png"
+    src="public/wifi.png"
     alt="wifi"
     className="absolute inset-0 w-full h-full object-cover opacity-20"
   />
