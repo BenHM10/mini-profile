@@ -36,13 +36,13 @@ export default function About() {
             </p>
           </div>
 
-          {/* visual box */}
-          <div className="bg-gradient-to-br from-red-500 to-red-600 h-64 rounded-2xl shadow-xl"></div>
+          {/* Visual box */}
+          <div className="bg-gradient-to-br from-red-500 to-red-600 h-64 md:h-80 rounded-2xl shadow-xl"></div>
 
         </div>
       </section>
 
-      {/* VISI MISI MODERN */}
+      {/* VISI MISI */}
       <section className="py-24 bg-gray-50">
         <div className="max-w-6xl mx-auto px-6">
 
@@ -73,8 +73,58 @@ export default function About() {
         </div>
       </section>
 
-      {/* STATS (biar keliatan legit) */}
+      {/* NILAI KAMI (FIXED - BAGUS) */}
       <section className="py-24">
+        <div className="max-w-6xl mx-auto px-6 text-center">
+
+          <h2 className="text-3xl font-bold mb-4">
+            Nilai yang Kami Pegang
+          </h2>
+          <p className="text-gray-500 mb-16">
+            Prinsip utama yang membentuk layanan kami
+          </p>
+
+          <div className="grid md:grid-cols-4 gap-8">
+
+            <div className="bg-white p-8 rounded-2xl shadow hover:shadow-xl transition group">
+              <div className="text-4xl mb-4 group-hover:scale-110 transition">🤝</div>
+              <h3 className="font-bold text-lg mb-2">Integritas</h3>
+              <p className="text-gray-600 text-sm">
+                Kami menjaga kepercayaan dengan transparansi dan kejujuran
+              </p>
+            </div>
+
+            <div className="bg-white p-8 rounded-2xl shadow hover:shadow-xl transition group">
+              <div className="text-4xl mb-4 group-hover:scale-110 transition">💡</div>
+              <h3 className="font-bold text-lg mb-2">Inovasi</h3>
+              <p className="text-gray-600 text-sm">
+                Selalu menghadirkan teknologi terbaru untuk pelanggan
+              </p>
+            </div>
+
+            <div className="bg-white p-8 rounded-2xl shadow hover:shadow-xl transition group">
+              <div className="text-4xl mb-4 group-hover:scale-110 transition">📞</div>
+              <h3 className="font-bold text-lg mb-2">Pelayanan</h3>
+              <p className="text-gray-600 text-sm">
+                Fokus pada kepuasan pelanggan dengan layanan terbaik
+              </p>
+            </div>
+
+            <div className="bg-white p-8 rounded-2xl shadow hover:shadow-xl transition group">
+              <div className="text-4xl mb-4 group-hover:scale-110 transition">⭐</div>
+              <h3 className="font-bold text-lg mb-2">Kepercayaan</h3>
+              <p className="text-gray-600 text-sm">
+                Dibangun dari kualitas layanan yang konsisten
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      {/* STATS */}
+      <section className="py-24 bg-gray-50">
         <div className="max-w-5xl mx-auto px-6 text-center">
 
           <h2 className="text-3xl font-bold mb-12">
