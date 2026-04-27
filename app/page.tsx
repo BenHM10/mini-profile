@@ -39,50 +39,80 @@ export default function Home() {
         </div>
       </section>
 
-      {/* KEUNGGULAN */}
-    {/* KEUNGGULAN */}
-<section className="py-24 bg-gray-100 px-6">
-  <div className="max-w-6xl mx-auto text-center">
+     {/* KEUNGGULAN */}
+<section className="py-24 px-6 bg-gradient-to-b from-white to-gray-100">
+  <div className="max-w-6xl mx-auto">
 
-    <h2 className="text-3xl font-bold mb-4">
-      Kenapa Pilih Kami?
-    </h2>
-    <p className="text-gray-500 mb-16">
-      Kami memberikan layanan terbaik untuk pengalaman internet Anda
-    </p>
+    {/* Title */}
+    <div className="text-center mb-16">
+      <h2 className="text-3xl font-bold mb-4">
+        Kenapa Pilih Kami?
+      </h2>
+      <p className="text-gray-500">
+        Lebih dari sekadar internet, kami memberikan pengalaman terbaik
+      </p>
+    </div>
 
-    <div className="grid md:grid-cols-4 gap-8">
+    {/* GRID */}
+    <div className="grid md:grid-cols-3 gap-8 items-center">
 
-      <div className="bg-white p-6 rounded-2xl shadow hover:shadow-xl transition group">
-        <div className="text-4xl mb-4 group-hover:scale-110 transition">📶</div>
-        <h3 className="font-semibold mb-2">Stabil</h3>
-        <p className="text-sm text-gray-600">
-          Koneksi tetap lancar tanpa gangguan
-        </p>
+      {/* LEFT */}
+      <div className="space-y-8">
+        <div className="flex items-start gap-4">
+          <div className="text-3xl">📶</div>
+          <div>
+            <h3 className="font-semibold">Stabil</h3>
+            <p className="text-sm text-gray-600">
+              Koneksi tetap lancar tanpa gangguan
+            </p>
+          </div>
+        </div>
+
+        <div className="flex items-start gap-4">
+          <div className="text-3xl">⚡</div>
+          <div>
+            <h3 className="font-semibold">Cepat</h3>
+            <p className="text-sm text-gray-600">
+              Kecepatan tinggi tanpa buffering
+            </p>
+          </div>
+        </div>
       </div>
 
-      <div className="bg-white p-6 rounded-2xl shadow hover:shadow-xl transition group">
-        <div className="text-4xl mb-4 group-hover:scale-110 transition">⚡</div>
-        <h3 className="font-semibold mb-2">Cepat</h3>
-        <p className="text-sm text-gray-600">
-          Kecepatan tinggi untuk semua kebutuhan
+      {/* CENTER (HIGHLIGHT BOX) */}
+      <div className="bg-red-600 text-white p-10 rounded-3xl shadow-xl text-center scale-105">
+        <h3 className="text-xl font-bold mb-4">
+          #1 Pilihan Terbaik
+        </h3>
+        <p className="opacity-90 mb-6">
+          Dipercaya oleh ribuan pelanggan di berbagai daerah
         </p>
+        <button className="bg-white text-red-600 px-6 py-2 rounded-full font-semibold">
+          Mulai Sekarang
+        </button>
       </div>
 
-      <div className="bg-white p-6 rounded-2xl shadow hover:shadow-xl transition group">
-        <div className="text-4xl mb-4 group-hover:scale-110 transition">💰</div>
-        <h3 className="font-semibold mb-2">Terjangkau</h3>
-        <p className="text-sm text-gray-600">
-          Harga fleksibel sesuai kebutuhan
-        </p>
-      </div>
+      {/* RIGHT */}
+      <div className="space-y-8">
+        <div className="flex items-start gap-4">
+          <div className="text-3xl">💰</div>
+          <div>
+            <h3 className="font-semibold">Terjangkau</h3>
+            <p className="text-sm text-gray-600">
+              Harga fleksibel untuk semua kalangan
+            </p>
+          </div>
+        </div>
 
-      <div className="bg-white p-6 rounded-2xl shadow hover:shadow-xl transition group">
-        <div className="text-4xl mb-4 group-hover:scale-110 transition">📞</div>
-        <h3 className="font-semibold mb-2">Support 24/7</h3>
-        <p className="text-sm text-gray-600">
-          Tim siap membantu kapan saja
-        </p>
+        <div className="flex items-start gap-4">
+          <div className="text-3xl">📞</div>
+          <div>
+            <h3 className="font-semibold">Support 24/7</h3>
+            <p className="text-sm text-gray-600">
+              Tim siap membantu kapan saja
+            </p>
+          </div>
+        </div>
       </div>
 
     </div>
